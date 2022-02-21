@@ -9,3 +9,11 @@ function uzemanyag() {
 		document.getElementById("egysegar").value = 518;
 	}
 }
+
+function ellenorzes() {
+
+}
+
+function nyomtatas() {
+	
+}
