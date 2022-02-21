@@ -10,7 +10,7 @@
 	</head>
 	<body>
 		<div class="container">
-			<h1 class="font-weight-bold">Útiköltség-elszámolás</h1>
+			<h3 class="font-weight-bold">Útiköltség-elszámolás</h3>
 			<h4 class="font-weight-bold">Személyes adatok</h4>
 			<table class="table text-left ml-5">
 				<tr>
@@ -27,7 +27,7 @@
 				</tr>
 			</table>
 
-			<h4>Gépjármű- és üzemanyagadatok</h4>
+			<h4 class="font-weight-bold">Gépjármű- és üzemanyagadatok</h4>
 			<table class="table text-left ml-5">
 				<tr>
 					<td>Gépjármű gyártmánya, típusa:</td>
@@ -59,9 +59,9 @@
 					<td><input type="text" name="egysegar" id="egysegar">Ft/l</td>
 				</tr>
 			</table>
-			<p class="text-right">Forrás: <a href="https://nav.gov.hu/ugyfeliranytu/uzemanyag/">https://nav.gov.hu/ugyfeliranytu/uzemanyag/</a></p>
+			<p class="text-right" id="forras">Forrás: <a href="https://nav.gov.hu/ugyfeliranytu/uzemanyag/">https://nav.gov.hu/ugyfeliranytu/uzemanyag/</a></p>
 
-			<h4>A megtett út adatai</h4>
+			<h4 class="font-weight-bold">A megtett út adatai</h4>
 			<table class="table text-left ml-5">
 				<tr>
 					<td>Kiindulási hely:</td>
@@ -81,7 +81,7 @@
 				</tr>
 				<tr>
 					<td></td>
-					<td><input type="submit" name="ellenorzes" value="Ellenőzés és számítás" onclick="ellenorzes()"></td>
+					<td><input id="ellenorzes" type="submit" name="ellenorzes" value="Ellenőzés és számítás" onclick="ellenorzes()"></td>
 				</tr>
 			</table>
 			<hr>
@@ -100,7 +100,7 @@
 				</tr>
 				<tr>
 					<td></td>
-					<td><input type="submit" name="nyomtatas" value="Nyomtatás" onclick="nyomtatas()"></td>
+					<td><input id="nyomtatas" type="submit" name="nyomtatas" value="Nyomtatás" onclick="nyomtatas()"></td>
 				</tr>
 			</table>
 		</div>
